@@ -4,13 +4,29 @@
     align-items: center;
 }
 
+.containermobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.itemmobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+    gap: 10%;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
 h1{
    width: 30%;
-   /* padding: 1%; */
-   /* background-color: brown; */
    display: flex;
    justify-content: center;
-   /* background-color: red; */
 }
 
 .item {
@@ -19,7 +35,6 @@ h1{
     list-style: none;
     gap: 10%;
     align-items: center;
-    /* background-color: green; */
     justify-content: left;
 }
 
@@ -39,5 +54,3 @@ h1{
        
     }
   }
-
-  /* at 430 px */
